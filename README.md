@@ -15,13 +15,16 @@ Bash script for system cleanup. This script is designed to clean up temporary fi
    git clone https://github.com/username/repo.git
 
 2. Navigate to the project directory:
-cd repo
+   ```bash
+   cd repo
 
 3. Make the script executable:
-chmod +x cleanup.sh
+   ```bash
+   chmod +x cleanup.sh
 
 5. Run the script (requires superuser privileges):
-sudo ./cleanup.sh
+   ```bash
+   sudo ./cleanup.sh
 
 Customization
 Modify the script to add or remove cleanup tasks as needed.
